@@ -1,0 +1,16 @@
+{
+  "name": "lib-ai",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "compile": "wasm-pack build --target web",
+    "compile-build": ""
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.9"
+  }
+}
