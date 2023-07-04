@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
     "start": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -10,7 +11,13 @@
     "compile-build": ""
   },
   "devDependencies": {
-    "typescript": "^4.6.4",
-    "vite": "^3.0.9"
+    "typescript": "^4.8.3",
+    "vite": "^3.1.3"
+  },
+  "dependencies": {
+    "@types/three": "^0.144.0",
+    "sword": "github:michealparks/sword",
+    "three": "^0.144.0",
+    "three-kit": "github:michealparks/three-kit"
   }
 }
